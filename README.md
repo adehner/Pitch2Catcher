@@ -1,5 +1,5 @@
 # Pitch2Catcher
-This Sinatra app is a web interface for the gem Pitcher, a library to interact with CONTENTdm's Catcher web service. You can use this batch import process to do bulk updating of CONTENTdm metadata via CSV file.
+This Sinatra app is a web interface for the gem Pitcher, a library to interact with OCLC CONTENTdm's Catcher web service. You can use this batch import process to do bulk updating of CONTENTdm metadata via CSV file.
 
 ## Installation
 Install locally or on a remote server. Your choice.
