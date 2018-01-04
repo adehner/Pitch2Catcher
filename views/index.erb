@@ -1,0 +1,13 @@
+<div class="interior_banner">
+  <h2>Edit CONTENTdm Records</h2>
+</div>
+<div class="content">
+  <p>CONTENTdm Batch Import is a web interface for the gem Pitcher, a library to interact with CONTENTdm's Catcher web service. You can use this batch import process to do bulk updating of metadata via CSV file. Please read the <a href="/ocapitcher/BatchEditingCONTENTdmRecords.pdf" target="blank">instructions for file preparation</a> before uploading files.</p>
+  <form action="/upload" method="POST" enctype="multipart/form-data">
+    <label for="csv">UPLOAD A DATA FILE (.csv)</label><br />
+    <input type='file' name='csv' required /><br /><br />
+    <label for="csv">UPLOAD A CONTENTdm SETTINGS FILE (.yml)</label><br />
+    <input type='file' name='settings' required /><br /><br />
+    <input type='submit' value='Import' />
+  </form>
+</div>

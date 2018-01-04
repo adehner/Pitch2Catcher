@@ -1,0 +1,102 @@
+@media all {
+
+  body {
+    font: normal 16px/20px 'Gentium Book Basic', serif;
+    line-height:140%;
+    color:000;
+    background:#f4f4f4;
+    width:100%;
+    margin:0;
+    
+  }
+
+  a {
+    text-decoration:none;
+  }
+
+  .wrapper {
+    margin:0 auto;
+    width:994px;
+    position:relative;
+    background:#fff;
+    -webkit-box-shadow: 0px -1px 20px rgba(50, 50, 50, 0.15);
+  	-moz-box-shadow:    0px -1px 20px rgba(50, 50, 50, 0.15);
+  	box-shadow:         0px -1px 20px rgba(50, 50, 50, 0.15);
+  }
+
+  header {
+    padding:20px 40px 0 40px;
+    display:flex;
+  }
+
+  header h1 {
+    width:50%;
+    line-height:1.1em;
+  }
+
+  nav {
+      width:50%;
+    display:flex;
+    justify-content:flex-end;
+  }
+
+  nav ul {
+    list-style:none;
+  }
+
+  nav li {
+    float:left;
+  }
+
+  nav a {
+    text-transform:uppercase;
+    display:block;
+    padding:13px 13px 11px;
+    font-size:18px;
+    color:#000;
+  }
+
+  nav a:hover {
+    color:purple;
+  }
+
+  .interior_banner {
+    padding:13px 40px;
+    background-color:#ebebeb;
+  }
+
+  .content {
+    padding:40px;
+  }
+  
+  form, .greybox {
+   background-color:#f4f4f4;
+   padding:20px;
+   margin-bottom:40px;
+  }
+
+  footer {
+    background-color:#9d9d9d;
+    min-height:50px;
+    color:#fff;
+    padding:10px 37px;
+    font-size:14px;
+    line-height:130%;
+    margin-bottom:30px;
+  }
+
+  footer a {
+    color:#fff;
+    text-decoration:underline;
+  }
+
+  footer a:hover {
+    color:purple;
+  }
+}
+
+@media only screen and (max-width: 1023px) {
+  .wrapper {
+    width:100%;
+  }
+}

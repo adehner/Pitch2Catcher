@@ -1,0 +1,20 @@
+<div class="interior_banner">
+  <h2>Imported!</h2>
+</div>
+<div class="content">
+
+  <p><strong>Uploaded Files</strong></p>
+  <p>The following files uploaded successfully:</p>
+  <p>data: <%= @cfilename %><br />
+     settings: <%= @sfilename %></p>
+  <br />
+  <p><strong>Import Report</strong></p>
+  <p>To review details for each update in your batch, visit your import report here:<br /><strong><a href="<%= @responsefilepath %>" target="_blank">View Report</a></strong><br /><br />
+  You can save and download your import report here:<br />
+   <strong><a href="<%= @responsefilepath %>" download><%= @responsefilename %></a></strong><br/></p>
+  <br />
+  <p><strong>Next Steps</strong></p>
+  <p>Login to your CONTENTdm Administration.<br />
+  Refer to the documentation <a href="/BatchEditingCONTENTdmRecords.pdf" target="blank">Batch Editing CONTENTdm Records</a>, and follow the steps in the "Review & re-index" section.</p>
+
+</div>

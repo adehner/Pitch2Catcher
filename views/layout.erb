@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='UTF-8' />
+    <title><%= @title %></title>
+    <link type="text/css" href='<%= url("/style.css")%>' rel="stylesheet" />
+    <link href="//fonts.googleapis.com/css?family=Gentium+Book+Basic:400,700" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1><a href="/">CONTENTdm Batch Import</a></h1>
+        <nav>
+          <ul>
+            <li><a href="/BatchEditingCONTENTdmRecords.pdf" target="blank">Documentation</a></li>
+            <li><a href="/testconnection" target="blank">Test connection</a></li>
+
+          </ul>
+        </nav>
+      </header>
+      <%= yield %>
+      <footer>
+        <p><a href="https://www.oclc.org/support/services/contentdm/help/add-ons-help/contentdm-catcher.en.html">CONTENTdm Catcher</a> created by OCLC<br />
+          <a href="https://github.com/little9/pitcher">Pitcher gem</a> created by Jamie Little<br />
+          Adapted for the Orbis Cascade Alliance by Anneliese Dehner</p>
+      </footer>
+    </div>
+  </body>
+</html>
