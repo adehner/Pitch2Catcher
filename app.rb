@@ -46,7 +46,7 @@ post '/upload' do
   if (@cfilepath)
     csv = pitcher.load_csv(@cfilepath)
     pitcher.create_message(csv,settings)
-
+    csv.close()
   else
     exit
   end
